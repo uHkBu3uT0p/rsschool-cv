@@ -1,0 +1,237 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: QuiteChocolatey;
+  src: url(../fonts/Quite\ Chocolatey.ttf);
+}
+@font-face {
+  font-family: PT Serif;
+  src: url(../fonts/ofont.ru_PT\ Serif.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  /* display: block; */
+  width: 1200px;
+  margin: 0 auto;
+}
+.menu {
+  background: url(../img/Layer\ 13.png);
+  width: 1200px;
+  height: 688px;
+  margin: 0 auto;
+}
+.menu_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: 7px 0 0 0;
+  padding: 0 0 0 85px;
+}
+h1 {
+  font-size: 88.32px;
+  font-family: QuiteChocolatey;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+  line-height: 30px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  margin: 64px 0 0 0;
+  padding: 0 94px 0 0;
+  text-transform: uppercase;
+}
+.nav li a {
+  font-size: 20px;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 11px;
+}
+.nav li a:hover {
+  background-color: rgb(19, 14, 39);
+  color: #fff;
+  border-radius: 5px;
+}
+.menu__text {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  margin: 50px 0 0 50px;
+}
+span.text {
+  color: rgb(19, 14, 39);
+}
+h2.menu__text {
+  font-size: 90px;
+  font-family: Montserrat-bold;
+  color: #fff;
+  font-weight: bolder;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+}
+p.menu__text {
+  font-size: 20px;
+  font-family: PT Serif;
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+}
+.item__logo {
+  font-size: 50px;
+  font-family: Couture;
+  line-height: 80px;
+  margin: 200px 0 0 100px;
+}
+span.text2 {
+  color: #c62314;
+}
+.box__item {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+  column-gap: 75px;
+}
+.item__box {
+  text-align: center;
+  max-width: 200px;
+}
+.item-text {
+  font-size: 20px;
+  font-family: PT Serif;
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  text-align: center;
+}
+.box3 {
+  background-color: #130e27;
+  margin: 0;
+}
+.text__box3 {
+  font-size: 20px;
+  font-family: PT Serif;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  height: 120px;
+  justify-content: center;
+  column-gap: 145px;
+}
+p.box3 {
+  max-width: 650px;
+  text-align: left;
+}
+.btn__box3 {
+  border-radius: 4px;
+  background-color: #df0f0f;
+  width: 205px;
+  height: 49px;
+  font-size: 22px;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.box3 {
+  text-decoration: none;
+  color: #fff;
+}
+.cards {
+  display: inline-block;
+  height: 614px;
+  width: 1200px;
+  background-color: #efefef;
+}
+h2.box4 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: Montserrat-bold;
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+  line-height: 80px;
+}
+.menu__box4 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+  column-gap: 22px;
+}
+.item__box4 {
+  text-align: center;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 318px;
+  height: 389px;
+  padding: 28px;
+}
+h4.box4 {
+  font-size: 22px;
+  font-family: PT Serif;
+  font-weight: 500;
+  color: rgb(22, 22, 22);
+  margin: 0 0 22px 0;
+}
+p.box4 {
+  font-size: 20px;
+  font-family: PT Serif;
+  color: rgb(22, 22, 22);
+  margin: -17px 0 32px 0;
+}
+span.box4 {
+  font-size: 60px;
+  font-family: Montserrat-bold;
+  color: rgb(198, 35, 20);
+  margin: 10px auto;
+}
+.btn__box4 {
+  border-radius: 4px;
+  background-color: rgb(19, 14, 39);
+  width: 205px;
+  height: 49px;
+  font-size: 22px;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+a.box4 {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+}
+.btn__box4:hover {
+  background-color: #c62314;
+}
+.footer {
+  background-color: #130e27;
+}
+.footer__box {
+  height: 188px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 200px;
+}
+p.footer {
+  font-size: 20px;
+  font-family: PT Serif;
+  color: rgb(255, 255, 255);
+}
+h2.logo__footer {
+  font-size: 88.32px;
+  font-family: QuiteChocolatey;
+  font-weight: normal;
+  color: #c62314;
+}
